@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        function Greeting(props) {
+            return <p>Hello, {props.name}!</p>;
+        }
+
+        ReactDOM.render(<Greeting name="User" />, document.getElementById('root'));
+    </script>
+</body>
+</html>
