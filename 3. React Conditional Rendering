@@ -1,0 +1,13 @@
+import React from 'react';
+
+const ButtonClicker = () => {
+  const handleButtonClick = () => {
+    alert('Button Clicked!');
+  };
+
+  return (
+    <div>
+      <button onClick={handleButtonClick}>Click me</button>
+    </div>
+  );
+};
